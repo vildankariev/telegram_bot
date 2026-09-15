@@ -172,7 +172,7 @@ async def show_help(message: Message):
 
     if user and user[5] == 'superadmin':
         help_text += "**Для главного админа:**\n"
-        help_text += "/makeadmin {user_id} — Назначить админа\n"
+        help_text += "/makeadmin {телефон} — Назначить админа\n"
         help_text += "/removeadmin {user_id} — Снять админа\n"
         help_text += "/admins — Список админов\n"
         help_text += "/setbalance {телефон} {сумма} — Установить баланс\n"
